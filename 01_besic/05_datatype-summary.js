@@ -38,3 +38,32 @@ const myFunction = function(){
 console.log(typeof myObj);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// ++++++++++++++++++++++++++++
+
+// 1] stack=> (primitive hot hai)=(copy milta hai variabale ka)
+
+//2] heap(non-primitive hota hai)=([refrence milega] matlb orignal value me chenge hoga)
+
+// let myname1="farhan";
+// let anothername=myname1;
+
+// anothername="saubi"
+
+// console.log(myname1);
+// console.log(anothername);
+
+let userOne={
+    email:"user@gmail",
+    upi:"user@ybl"
+  
+}
+
+let userTwo=userOne
+userTwo.email="farhan@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
