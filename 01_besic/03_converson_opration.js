@@ -1,21 +1,25 @@
 let score = "hitesh"
 
-//console.log(typeof score);
-//console.log(typeof(score));
+// console.log(typeof score);    //type dega score ka
+// console.log(typeof(score)); // alse wrte this type
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+console.log(typeof valueInNumber);   //type number
+// console.log(valueInNumber); //it give NaN
 
 
 // "33" => 33
 // "33abc" => NaN
 //  true => 1; false => 0
 
-let isLoggedIn = "hitesh"
+// let isLoggedIn = "hitesh"
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-//  console.log(booleanIsLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+//  console.log(booleanIsLoggedIn); //give true
+
+//  let isLoggedIn2 = ""
+//  let booleanIsLoggedIn2 = Boolean(isLoggedIn2)
+//  console.log(booleanIsLoggedIn2); //give false
 
 // 1 => true; 0 => false
 // "" => false
@@ -31,12 +35,12 @@ let stringNumber = String(someNumber)
 
 let value = 3
 let negValue = -value
-// console.log(negValue);
+// console.log(negValue);  //give negetive value
 
 // console.log(2+2);
 // console.log(2-2);
 // console.log(2*2);
-// console.log(2**3);
+// console.log(2**3); //give power 2^3
 // console.log(2/3);
 // console.log(2%3);
 
@@ -46,15 +50,17 @@ let str2 = " hitesh"
 let str3 = str1 + str2
 // console.log(str3);
 
-// console.log("1" + 2);
-// console.log(1 + "2");
-// console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log("1" + 2);   //12
+// console.log(1 + "2");    //12
+// console.log("1" + 2 + 2);  //122
+// console.log(1 + 2 + "2");  //32
 
-// console.log( (3 + 4) * 5 % 3);
+// console.log( (3 + 4) * 5 % 3); //2
 
-// console.log(+true);
-// console.log(+"");
+console.log(+true);  //1
+console.log(true);  // true
+console.log(+"");   //give 0
+console.log(" "); //   give space
 
 let num1, num2, num3
 
