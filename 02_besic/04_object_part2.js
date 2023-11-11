@@ -42,9 +42,11 @@ const obj3 = {...obj1, ...obj2,...obj4} //also we can use
 
  // console.log(tinderUser);
 
-console.log(Object.keys(tinderUser)); //give key =[ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); //give value=[ '123abc', 'Sammy', false ]
-console.log(Object.entries(tinderUser)); //  give key and vale=[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
+//console.log(Object.keys(tinderUser)); //give key =[ 'id', 'name', 'isLoggedIn' ]
+
+//console.log(Object.values(tinderUser)); //give value=[ '123abc', 'Sammy', false ]
+
+//console.log(Object.entries(tinderUser)); //  give key and vale=[ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
@@ -64,6 +66,41 @@ console.log(Object.entries(tinderUser)); //  give key and vale=[ [ 'id', '123abc
 ]
 
 //users[1].email
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+//course.courseInstructor //valid
+ //console.log(course.courseInstructor);  //O/P=hitesh
+
+  //OR
+  //const {courseInstructor} = course
+  //console.log(courseInstructor); //o/p=hitesh
+
+  const {courseInstructor:instructor} = course  //whe chenge or short the name
+  console.log(instructor);  //o/p=hitesh
+
+  //Json in object form
+
+  // {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+//json in array form
+
+[
+    {},
+    {},
+    {}
+]
+
+
+
+
 
 
 
