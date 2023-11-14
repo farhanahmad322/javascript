@@ -16,7 +16,7 @@ function addTwoNumbers(number1, number2){//parameter
 }
 
 // addTwoNumbers()  //o/p=NaN
- //addTwoNumbers(6,8)//taking argument
+ //addTwoNumbers(6,8)//taking argument, o/p=14
 
  //.........................................
 
@@ -52,8 +52,69 @@ const result = addTwoNumbers(3, 5)
     return `${username} just logged in`
 }
 
- console.log(loginUserMessage("hitesh"))
-console.log(loginUserMessage())
+ //console.log(loginUserMessage("hitesh"))
+  //console.log(loginUserMessage())
+
+
+////..................../////////////...............................
+
+function calculateCartPrice(num1){
+    return num1
+}
+
+//console.log(calculateCartPrice(200, 400, 500, 2000)) //o/p=200
+//give only fisrt elment islye humlog rest oprater chahiye
+
+////////////////////////Restoprater/////////////////////
+
+function calculateCartPrice(...num1){
+    return num1
+}
+
+//console.log(calculateCartPrice(200, 400, 500, 2000))  //o/p=[ 200, 400, 500, 2000 ]
+
+//////////////////////////////////////////////////////////
+
+function calculateCartPrice(val1, val2, ...num1){
+    return num1
+}
+
+//console.log(calculateCartPrice(200, 400, 500, 2000))   //o/p=[ 500, 2000 ]
+
+////////////////...function Object... //////////////////
+
+const user = {
+    username: "hitesh",
+    price: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+//handleObject(user)
+
+//......... OR ..............
+
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+///handleObject(user)
+
+
+/////////.......... function with array.../////////////
+
+const myNewArray = [200, 400, 100, 600]
+
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));   // o/p=400
+//console.log(returnSecondValue([200, 400, 500, 1000]));
+
 
 
 
