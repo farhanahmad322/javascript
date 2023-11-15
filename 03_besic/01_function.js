@@ -30,7 +30,7 @@ function addTwoNumbers(number1, number2){//parameter
 
 const result = addTwoNumbers(3, 5)
 
- //console.log("Result: ", result);
+ //console.log("Result is: ", result); //  Result is:  8
 
  //............................///////////..............
 
@@ -52,8 +52,8 @@ const result = addTwoNumbers(3, 5)
     return `${username} just logged in`
 }
 
- //console.log(loginUserMessage("hitesh"))
-  //console.log(loginUserMessage())
+ //console.log(loginUserMessage("hitesh")) Hitesh PLease enter a username
+  //console.log(loginUserMessage())   //Undfined PLease enter a username
 
 
 ////..................../////////////...............................
@@ -63,7 +63,7 @@ function calculateCartPrice(num1){
 }
 
 //console.log(calculateCartPrice(200, 400, 500, 2000)) //o/p=200
-//give only fisrt elment islye humlog rest oprater chahiye
+//give only fisrt elment islye humlog restoprater use krte hai
 
 ////////////////////////Restoprater/////////////////////
 
